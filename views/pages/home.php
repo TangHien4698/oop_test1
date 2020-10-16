@@ -36,11 +36,11 @@
                 <?php foreach ($posts as $value){ ?>
                     <tr class="table-info">
                         <th scope="row">1</th>
-                        <td><?php echo $value["name"] ?></td>
-                        <td><?php echo $value["point_1"] ?></td>
-                        <td><?php echo $value["point_2"] ?></td>
-                        <td><?php echo $value["point_3"] ?></td>
-                        <td><?php echo $value["average"] ?></td>
+                        <td><?php echo $value->name ?></td>
+                        <td><?php echo $value->point_1 ?></td>
+                        <td><?php echo $value->point_2 ?></td>
+                        <td><?php echo $value->point_3 ?></td>
+                        <td><?php echo $value->average ?></td>
                     </tr>
                 <?php } ?>
                 </tbody>

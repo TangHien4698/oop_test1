@@ -7,15 +7,19 @@ class PagesController extends BaseController
     {
         $this->folder = 'pages';
     }
-//    public function index()
-//    {
-//        $posts = Student::all();
-//        $data = array('posts' => $posts);
-//        $this->render('home', $data);
-//    }
     public function home()
     {
         $posts = Student::all();
+        $i = 0;
+        foreach($posts as $value)
+        {
+            $posts[$i]["average"] = ($value["point_1"]+$value["point_2"]+$value["point_3"])/3;
+            $i++;
+        }
+        usort($posts, function($a, $b)
+        {
+            return $a["average"] < $b["average"];
+        });
         $data = array('posts' => $posts);
         $this->render('home', $data);
     }

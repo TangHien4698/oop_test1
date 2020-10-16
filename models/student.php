@@ -20,7 +20,7 @@ class Student
     {
         $list = [];
         $db = DB::connect();
-        $req = $db->query('SELECT * FROM student ORDER BY average');
+        $req = $db->query('SELECT * FROM student_copy ');
         foreach ($req as $value)
         {
             array_push($list,$value);
@@ -31,8 +31,8 @@ class Student
     {
         $average = ($point_1 + $point_2 + $point_3)/3;;
         $db = DB::connect();
-        $sql = "INSERT INTO student(name, point_1, point_2,point_3,average)
-VALUES ('$name', $point_1,$point_2,$point_3,$average)";
+        $sql = "INSERT INTO student_copy(name, point_1, point_2,point_3)
+VALUES ('$name', $point_1,$point_2,$point_3)";
         if ($db->query($sql) === TRUE) {
             return true;
         }

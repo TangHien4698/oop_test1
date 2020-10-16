@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d677ac8c-1751-4a9c-bccc-a1ff68e6923c" name="Default Changelist" comment="" />
+    <list default="true" id="d677ac8c-1751-4a9c-bccc-a1ff68e6923c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/App.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +13,9 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iuBlGmVxsnHnynH1RRX5AkR06J" />
   <component name="ProjectViewState">
@@ -18,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/media/acer/HIEN/xampp/htdocs/Book1" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -29,7 +36,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602747745896</updated>
-      <workItem from="1602747746936" duration="12586000" />
+      <workItem from="1602747746936" duration="13182000" />
+      <workItem from="1602773915640" duration="599000" />
+      <workItem from="1602815804467" duration="2878000" />
     </task>
     <servers />
   </component>
@@ -37,10 +46,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1602750128169">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1602817254802">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1602750128169" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1602817254802" />
+    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog" timestamp="1602818373411">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="789" y="478" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1602818373411" />
     <state x="657" y="253" key="run.anything.popup" timestamp="1602756763098">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
